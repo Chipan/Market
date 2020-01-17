@@ -1,0 +1,310 @@
+  html,
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-size: contain;
+      font-family: Montserrat, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.7143;
+      color: #000;
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  .user h2 {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 2.5rem;
+      letter-spacing: -0.05em;
+      color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .user h3 {
+      font-weight: 600;
+      font-size: 1.5625rem;
+      line-height: 2rem;
+      letter-spacing: -0.03em;
+      color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .form_personal_info input {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      letter-spacing: 0rem;
+      color: rgba(0, 0, 0, 0.9);
+      outline: none;
+  }
+  
+  .form_change_password input {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      letter-spacing: 0rem;
+      color: rgba(0, 0, 0, 0.9);
+      outline: none;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="number"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="email"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  input[type="password"]:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6);
+      letter-spacing: 0.01em;
+  }
+  
+  .user {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      margin-top: 2rem;
+      margin-bottom: 6rem;
+      background-color: white;
+      max-width: 51rem;
+  }
+  
+  .form_personal_info {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 3rem;
+  }
+  
+  p.form_item {
+      margin: 0;
+      margin-bottom: 1rem;
+  }
+  
+  .form_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 0.5rem;
+  }
+  
+  .form_wrapper p {
+      width: calc(50% - 8px);
+  }
+  
+  .form_item input {
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 0.25rem;
+      padding: 0.75rem;
+  }
+  
+  .button {
+      display: inline-block;
+      width: 12rem;
+      min-height: 2.5rem;
+      margin: 0;
+      padding-top: 0.6875rem;
+      padding-bottom: 0.6875rem;
+      padding-left: 0px;
+      padding-right: 0px;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      text-align: center;
+      color: #ffffff;
+      background-color: #01768B;
+      border: none;
+      border-radius: 0.25rem;
+  }
+  
+  button:hover,
+  button:focus {
+      background-color: #006475;
+  }
+  
+  .form_change_password {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+  
+  .form_change_password p {
+      width: 50%;
+  }
+  
+  .user h2 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1.5rem;
+  }
+  
+  .user h3 {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1.5rem;
+  }
+  
+  .form_change_password p:nth-of-type(2) {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 1.5rem;
+  }
+  
+  @media screen and (max-width: 1279px) {
+      .user {
+          margin: 2rem 1.5rem 6rem;
+      }
+  }
+  
+  @media screen and (max-width: 608px) {
+      .user {
+          margin: 2rem 1rem 3rem;
+      }
+      .form_personal_info {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+      }
+      .form_wrapper p {
+          width: 100%;
+      }
+      .form_personal_info button {
+          width: 100%;
+      }
+      .form_change_password p {
+          width: 100%;
+      }
+      .form_change_password button {
+          width: 100%;
+      }
+      .user h2 {
+          font-weight: 600;
+          font-size: 1.562rem;
+          line-height: 2rem;
+          letter-spacing: -0.05em;
+          color: rgba(0, 0, 0, 0.7);
+      }
+  }

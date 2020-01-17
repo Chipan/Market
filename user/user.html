@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Личный кабинет</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600&display=swap&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+</head>
+
+<body>
+    <div class="user">
+
+        <h2>Личные данные</h2>
+        <form class="form_personal_info" action="/" method="post">
+            <p class="form_item">
+                <input class="name" id="user_name" type="text" name="name" placeholder="Имя *">
+            </p>
+            <p class="form_item">
+                <input class="surname" id="user_surname" type="text" name="surname" placeholder="Фамилия">
+            </p>
+            <div class="form_wrapper">
+                <p class="form_item">
+                    <input class="number" id="user_number" type="number" name="number" placeholder="Телефон *">
+                </p>
+                <p class="form_item">
+                    <input class="email" id="user_email" type="email" name="email" placeholder="Ваш e-mail">
+                </p>
+            </div>
+            <button class="button" type="submit">
+                Сохранить
+            </button>
+        </form>
+
+        <h3>Смена пароля</h3>
+        <form class="form_change_password" action="/" method="post">
+            <p class="form_item">
+                <input class="password" id="user_password" type="password" name="user_password" placeholder="Пароль *">
+            </p>
+            <p class="form_item">
+                <input class="confirm_password" id="user_confirm_password" type="password" name="user_confirm_password" placeholder="Подтвердите пароль *">
+            </p>
+            <button class="button" type="submit">
+                Изменить пароль
+            </button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
