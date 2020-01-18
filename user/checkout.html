@@ -83,14 +83,6 @@
                     <button class="checkout__button" type="submit">Применить</button>
                 </div>
             </div>
-
-
-
-
-
-
-
-
             <div class="summary">
                 <table class="summary__table">
                     <tbody>
@@ -130,11 +122,6 @@
                     </tbody>
                 </table>
             </div>
-
-
-
-
-
         </div>
         <div class="checkout-form">
             <form class="checkout-form__form" action="/" method="post">
@@ -144,7 +131,7 @@
                         <p class="checkout-form__login"><a class="login-link" href="#">Войти</a></p>
                     </div>
                     <p class="checkout-form__input">
-                        <input id="user_name" type="text" name="name" placeholder="Имя Фамилия *">
+                        <input id="checkout-form_user-name" type="text" name="name" placeholder="Имя Фамилия *">
                     </p>
                     <p class="checkout-form__input">
                         <input class="number" id="user_number" type="number" name="number" placeholder="Телефон *">
@@ -155,6 +142,7 @@
                     <p class="checkout-form__text">На этот адрес будет отправлено подтверждение заказа</p>
                 </fieldset>
                 <fieldset class="checkout-form__block">
+                    <h2 class="checkout-form__legend">2. Доставка</h2>
                     <div class="checkout-list-with-cities">
                         <p>Населенный пункт:</p>
                         <select class="checkout-item__cities">
@@ -184,7 +172,6 @@
                             <span class="delivery-info__span_bold">сегодня</span>
                         </p>
                     </div>
-                    <legend class="checkout-form__legend">2. Доставка</legend>
                     <p class="checkout-form__input">
                         <input id="user_address" type="text" name="user_address" placeholder="Адрес доставки *">
                     </p>
@@ -193,7 +180,7 @@
                     </p>
                 </fieldset>
                 <fieldset class="checkout-form__block">
-                    <legend class="checkout-form__legend">3. Оплата</legend>
+                    <h2 class="checkout-form__legend legend-payment">3. Оплата</h2>
                     <ul class="checkout-form__list">
                         <li class="checkout-form__option">
                             <input class="input-radio visually-hidden" type="radio" name="payment_method" value="cash" id="filter-cash" checked>
@@ -236,9 +223,7 @@
                     </table>
                     <table class="summary-table">
                         <tbody class="summary-table__bottom">
-                            <div class="summary-table__hr">
-                                <hr>
-                            </div>
+                            <hr class="summary-table__hr">
                             <tr class="summary-table__item">
                                 <td class="summary-table__label_bold">Итого к оплате с доставкой:</td>
                                 <td class="summary-table__amount"><span>312<sup>74</sup><span>р.</span></span>

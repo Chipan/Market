@@ -423,12 +423,20 @@ tr.summary-item {
     line-height: 2rem;
     letter-spacing: -.03em;
     color: rgba(0, 0, 0, .7);
-    margin-bottom: 1rem
+}
+
+.checkout-form__legend {
+    margin: 0;
+}
+
+.legend-payment {
+    margin-bottom: 1rem;
 }
 
 .checkout-form-block__wrapper .checkout-form__legend {
     margin-right: 1rem;
-    margin-bottom: 0
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .checkout-form-block__wrapper {
@@ -575,12 +583,10 @@ input[type=email]:-ms-input-placeholder {
     display: -ms-flexbox;
     display: flex;
     line-height: 1.5rem;
-    margin-bottom: .5rem
 }
 
 .checkout-list-with-cities p {
     margin-right: 1rem;
-    margin-bottom: .5rem
 }
 
 .delivery-info p:nth-child(1) {
@@ -1017,15 +1023,13 @@ div .summary-table__button {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin-bottom: .5rem
-}
-
-.summary-table__hr hr {
+    margin-bottom: .5rem;
     border: 0;
     height: 1px;
     background: #888;
     width: 5.4375rem;
     margin: 0;
+    margin-left: 505px;
 }
 
 .delivery-info__nested-list {
