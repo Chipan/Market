@@ -1029,7 +1029,7 @@ div .summary-table__button {
     background: #888;
     width: 5.4375rem;
     margin: 0;
-    margin-left: 505px;
+    margin-left: auto;
 }
 
 .delivery-info__nested-list {
